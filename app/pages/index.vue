@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import CardManga from '~/components/CardManga.vue'
+import ListCardManga from '~/components/ListCardManga.vue'
+import CarouselIntro from '~/components/CarouselIntro.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-4 gap-4">
-    <CardManga />
-    <CardManga />
-    <CardManga />
-    <CardManga />
+  <div>
+    <h1>PLANETE MANGA</h1>
+    <CarouselIntro />
+    <ListCardManga />
   </div>
 </template>
